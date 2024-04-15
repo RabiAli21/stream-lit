@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the trained Random Forest model
-rf_model = joblib.load('random_forest_model.pkl')
+rf_model = joblib.load('CO2_emission(RF).joblib')
 
 # Define the Streamlit app
 def main():
